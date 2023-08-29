@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int OpcaoMenu = 1;
+        String Pessoa;
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Bem vindo ao sitema Bancario");
@@ -23,7 +24,8 @@ public class Main {
             switch (OpcaoMenu) {
 
                 case 1:
-
+                    Pessoa = scanner.nextLine();
+                    PessoaFisica Pessoa = new PessoaFisica()
                     break;
                 case 2:
 
