@@ -6,4 +6,8 @@ public class PessoaFisica {
         this.nome = nome;
         this.cpf = cpf;
     }
+
+    public PessoaFisica(){
+        
+    }
 }
